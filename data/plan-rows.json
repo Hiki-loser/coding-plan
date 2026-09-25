@@ -1,0 +1,4142 @@
+{
+  "generatedAt": "2026-09-25T21:21:28.621Z",
+  "siteUrl": "https://codingplan.91786767.xyz",
+  "counts": {
+    "providers": 11,
+    "plans": 20,
+    "rows": 109
+  },
+  "rows": [
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "muse-spark-1.3",
+        "name": "Muse Spark 1.3"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 16387712000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "displayNote": "Contributor版，会将你的数据用于训练，数据敏感用户需要注意",
+      "displayNoteEn": "Contributor plan: your data may be used for model training; users handling sensitive data should take note",
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "页面表内模型名为「Muse Spark 1.3 Contributor」，与白名单 modelId muse-spark-1.3 对应（Endpoint 表 model id 为 muse-spark-1.3-contributor）。；页面与 API 端点上该模型名为「Muse Spark 1.3 Contributor」，模型 ID muse-spark-1.3-contributor，对应白名单 muse-spark-1.3。；白名单 modelId muse-spark-1.3 对应页面「Muse Spark 1.3 Contributor」行，画像与额度逐字取自该行。；订阅地址为官网占位，待替换为具体套餐购买页"
+      },
+      "createdAt": "2026-09-18T07:31:06.743Z",
+      "updatedAt": "2026-09-25T21:12:46.815Z",
+      "activePromo": null,
+      "monthlyYi": 163.87712,
+      "unitPromo": null,
+      "unitNormal": 0.4097185745026518,
+      "effectiveUnit": 0.4097185745026518,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 9362600000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "displayNoteEn": "Estimated requests 表促销单元格：DeepSeek V4.1 Flash 4x · Ends Sep 27（促销值 130,000 不计入基线，基线取 32,500）。",
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "2026-09-26 读数：Estimated requests 中 DeepSeek V4.1 Flash 的 month 列只有单个数字 130,000（无促销后缀、无 4x 拼接），与口径文档 worked example 记录的基线 32,500 不一致；线上旧值为 2,340,650,000。已开 alert 供人工裁决。"
+      },
+      "createdAt": "2026-09-18T07:31:07.226Z",
+      "updatedAt": "2026-09-25T21:12:50.104Z",
+      "activePromo": null,
+      "monthlyYi": 93.626,
+      "unitPromo": null,
+      "unitNormal": 0.7171458782816739,
+      "effectiveUnit": 0.7171458782816739,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "glm-5.3-flash",
+        "name": "GLM-5.3-Flash"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 1774796000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "订阅地址为官网占位，待替换为具体套餐购买页"
+      },
+      "createdAt": "2026-09-18T07:31:07.710Z",
+      "updatedAt": "2026-09-25T21:12:40.239Z",
+      "activePromo": null,
+      "monthlyYi": 17.74796,
+      "unitPromo": null,
+      "unitNormal": 3.7831671921730727,
+      "effectiveUnit": 3.7831671921730727,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "byteark",
+        "name": "字节方舟",
+        "nameEn": "ByteArk"
+      },
+      "plan": {
+        "id": "lite",
+        "name": "Lite"
+      },
+      "model": {
+        "id": "glm-5.3-flash",
+        "name": "GLM-5.3-Flash"
+      },
+      "billing": {
+        "priceCny": 40,
+        "period": "month",
+        "promo": {
+          "priceCny": 9.9,
+          "type": "limited-time"
+        }
+      },
+      "metrics": {
+        "monthlyTokens": 1200000000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "displayNote": "非首月性价比一般，且速度较慢，不是很推荐",
+      "displayNoteEn": "Value is mediocre after the first-month price and speed is slow; not recommended",
+      "subscribeUrl": "https://www.volcengine.com/product/ark",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "限时特惠，名额有限，先到先得；受邀再享9.5折"
+      },
+      "createdAt": "2026-09-18T07:31:36.070Z",
+      "updatedAt": "2026-09-25T21:13:05.678Z",
+      "activePromo": {
+        "priceCny": 9.9,
+        "type": "limited-time"
+      },
+      "monthlyYi": 12,
+      "unitPromo": 0.8250000000000001,
+      "unitNormal": 3.3333333333333335,
+      "effectiveUnit": 0.8250000000000001,
+      "effectivePrice": 9.9
+    },
+    {
+      "provider": {
+        "id": "byteark",
+        "name": "字节方舟",
+        "nameEn": "ByteArk"
+      },
+      "plan": {
+        "id": "pro",
+        "name": "Pro"
+      },
+      "model": {
+        "id": "glm-5.3-flash",
+        "name": "GLM-5.3-Flash"
+      },
+      "billing": {
+        "priceCny": 200,
+        "period": "month",
+        "promo": {
+          "priceCny": 49.9,
+          "type": "limited-time"
+        }
+      },
+      "metrics": {
+        "monthlyTokens": 6000000000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "displayNote": "非首月性价比一般，且速度较慢，不是很推荐",
+      "displayNoteEn": "Value is mediocre after the first-month price and speed is slow; not recommended",
+      "subscribeUrl": "https://www.volcengine.com/product/ark",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "限时特惠，名额有限，先到先得；受邀再享9.5折"
+      },
+      "createdAt": "2026-09-18T07:31:37.011Z",
+      "updatedAt": "2026-09-25T21:13:06.147Z",
+      "activePromo": {
+        "priceCny": 49.9,
+        "type": "limited-time"
+      },
+      "monthlyYi": 60,
+      "unitPromo": 0.8316666666666667,
+      "unitNormal": 3.3333333333333335,
+      "effectiveUnit": 0.8316666666666667,
+      "effectivePrice": 49.9
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 7848225000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "GOAT 刊例价 $10/month；pricing 页标示 \"$10/month + processing fee\"，processing fee 未量化，不计入基线价。页面另有 $70 credits / 5h $14 / 7d $35 / 月 $70 与 deals 说法，属促销/权益说明，不进基线月额度。"
+      },
+      "createdAt": "2026-09-18T07:31:37.722Z",
+      "updatedAt": "2026-09-25T21:14:40.655Z",
+      "activePromo": null,
+      "monthlyYi": 78.48225,
+      "unitPromo": null,
+      "unitNormal": 0.8555246568491602,
+      "effectiveUnit": 0.8555246568491602,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "glm-5.3-flash",
+        "name": "GLM-5.3-Flash"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 1202715000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "GOAT 刊例价 $10/month；pricing 页标示 \"$10/month + processing fee\"，processing fee 未量化，不计入基线价。GLM-5.3 Flash 页面标示 Monthly credits $40（per-model 权益，非基线价字段）。"
+      },
+      "createdAt": "2026-09-18T07:31:38.196Z",
+      "updatedAt": "2026-09-25T21:14:45.843Z",
+      "activePromo": null,
+      "monthlyYi": 12.02715,
+      "unitPromo": null,
+      "unitNormal": 5.582660896388587,
+      "effectiveUnit": 5.582660896388587,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "r4coder",
+        "name": "R4Coder"
+      },
+      "plan": {
+        "id": "mini",
+        "name": "R4Coder Mini"
+      },
+      "model": {
+        "id": "deepseek-v4.1-flash",
+        "name": "DeepSeek V4.1 Flash"
+      },
+      "billing": {
+        "priceCny": 33.55,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 2880000000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "",
+      "source": {
+        "lastVerifiedAt": "2026-09-18",
+        "note": "订阅地址待补"
+      },
+      "createdAt": "2026-09-18T07:31:38.919Z",
+      "updatedAt": "2026-09-18T07:31:38.919Z",
+      "activePromo": null,
+      "monthlyYi": 28.8,
+      "unitPromo": null,
+      "unitNormal": 1.1649305555555554,
+      "effectiveUnit": 1.1649305555555554,
+      "effectivePrice": 33.55
+    },
+    {
+      "provider": {
+        "id": "r4coder",
+        "name": "R4Coder"
+      },
+      "plan": {
+        "id": "mini",
+        "name": "R4Coder Mini"
+      },
+      "model": {
+        "id": "glm-5.3-flash",
+        "name": "GLM-5.3-Flash"
+      },
+      "billing": {
+        "priceCny": 33.55,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 1640000000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "",
+      "source": {
+        "lastVerifiedAt": "2026-09-18",
+        "note": "订阅地址待补"
+      },
+      "createdAt": "2026-09-18T07:31:39.398Z",
+      "updatedAt": "2026-09-18T07:31:39.398Z",
+      "activePromo": null,
+      "monthlyYi": 16.4,
+      "unitPromo": null,
+      "unitNormal": 2.0457317073170733,
+      "effectiveUnit": 2.0457317073170733,
+      "effectivePrice": 33.55
+    },
+    {
+      "provider": {
+        "id": "zhipu",
+        "name": "智谱AI",
+        "nameEn": "Zhipu AI"
+      },
+      "plan": {
+        "id": "max",
+        "name": "Max"
+      },
+      "model": {
+        "id": "glm-5.3-flash",
+        "name": "GLM-5.3-Flash"
+      },
+      "billing": {
+        "priceCny": 1078,
+        "period": "month",
+        "promo": {
+          "priceCny": 862.4,
+          "type": "limited-time"
+        }
+      },
+      "metrics": {
+        "monthlyTokens": 24948000000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "displayNote": "额度为Lite版14倍",
+      "displayNoteEn": "Quota is 14× the Lite plan",
+      "subscribeUrl": "https://open.bigmodel.cn/",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "折后价 ¥862.4 对应连续包月 8 折（周期折扣，非首月）；14 倍 Lite 仅为积分冗余表达，不参与 token 计算。"
+      },
+      "createdAt": "2026-09-18T07:31:40.115Z",
+      "updatedAt": "2026-09-25T21:15:39.287Z",
+      "activePromo": {
+        "priceCny": 862.4,
+        "type": "limited-time"
+      },
+      "monthlyYi": 249.48,
+      "unitPromo": 3.4567901234567904,
+      "unitNormal": 4.320987654320988,
+      "effectiveUnit": 3.4567901234567904,
+      "effectivePrice": 862.4
+    },
+    {
+      "provider": {
+        "id": "zhipu",
+        "name": "智谱AI",
+        "nameEn": "Zhipu AI"
+      },
+      "plan": {
+        "id": "pro",
+        "name": "Pro"
+      },
+      "model": {
+        "id": "glm-5.3-flash",
+        "name": "GLM-5.3-Flash"
+      },
+      "billing": {
+        "priceCny": 538,
+        "period": "month",
+        "promo": {
+          "priceCny": 430.4,
+          "type": "limited-time"
+        }
+      },
+      "metrics": {
+        "monthlyTokens": 10692000000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "displayNote": "额度为Lite版6倍",
+      "displayNoteEn": "Quota is 6× the Lite plan",
+      "subscribeUrl": "https://open.bigmodel.cn/",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "折后价 ¥430.4 对应连续包月 8 折（页面原文「连续包月 连续包季 8折 连续包年 7折」），非首月优惠。"
+      },
+      "createdAt": "2026-09-18T07:31:40.590Z",
+      "updatedAt": "2026-09-25T21:15:38.344Z",
+      "activePromo": {
+        "priceCny": 430.4,
+        "type": "limited-time"
+      },
+      "monthlyYi": 106.92,
+      "unitPromo": 4.025439580995136,
+      "unitNormal": 5.03179947624392,
+      "effectiveUnit": 4.025439580995136,
+      "effectivePrice": 430.4
+    },
+    {
+      "provider": {
+        "id": "zhipu",
+        "name": "智谱AI",
+        "nameEn": "Zhipu AI"
+      },
+      "plan": {
+        "id": "lite",
+        "name": "Lite"
+      },
+      "model": {
+        "id": "glm-5.3-flash",
+        "name": "GLM-5.3-Flash"
+      },
+      "billing": {
+        "priceCny": 118,
+        "period": "month",
+        "promo": {
+          "priceCny": 94.4,
+          "type": "limited-time"
+        }
+      },
+      "metrics": {
+        "monthlyTokens": 1782000000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "displayNote": "官方口径在96%命中率下1积分约等于0.99万token，在zcode中有1.5倍额度",
+      "displayNoteEn": "Per official figures, 1 credit ≈ 9,900 tokens at a 96% hit rate; zCode grants 1.5× quota",
+      "subscribeUrl": "https://open.bigmodel.cn/",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "折扣为付费周期折扣，页面原文「连续包月 连续包季 8折 连续包年 7折」；折后价 ¥94.4 对应 8 折。ZCode 客户端 1.5× 加赠与 GLM-5.3-Flash 夜间活动（9/3–9/20）不进基线。"
+      },
+      "createdAt": "2026-09-18T07:31:41.064Z",
+      "updatedAt": "2026-09-25T21:15:37.400Z",
+      "activePromo": {
+        "priceCny": 94.4,
+        "type": "limited-time"
+      },
+      "monthlyYi": 17.82,
+      "unitPromo": 5.297418630751964,
+      "unitNormal": 6.621773288439955,
+      "effectiveUnit": 5.297418630751964,
+      "effectivePrice": 94.4
+    },
+    {
+      "provider": {
+        "id": "zhipu",
+        "name": "智谱AI",
+        "nameEn": "Zhipu AI"
+      },
+      "plan": {
+        "id": "max",
+        "name": "Max"
+      },
+      "model": {
+        "id": "glm-5.3",
+        "name": "GLM-5.3"
+      },
+      "billing": {
+        "priceCny": 1078,
+        "period": "month",
+        "promo": {
+          "priceCny": 862.4,
+          "type": "limited-time"
+        }
+      },
+      "metrics": {
+        "monthlyTokens": 8316000000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "displayNote": "额度为Lite版14倍",
+      "displayNoteEn": "Quota is 14× the Lite plan",
+      "subscribeUrl": "https://open.bigmodel.cn/",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "GLM-5.3 为非 Flash 档，倍率 3；折后价 ¥862.4 为连续包月 8 折周期折扣。"
+      },
+      "createdAt": "2026-09-18T07:31:41.538Z",
+      "updatedAt": "2026-09-25T21:15:39.759Z",
+      "activePromo": {
+        "priceCny": 862.4,
+        "type": "limited-time"
+      },
+      "monthlyYi": 83.16,
+      "unitPromo": 10.37037037037037,
+      "unitNormal": 12.962962962962964,
+      "effectiveUnit": 10.37037037037037,
+      "effectivePrice": 862.4
+    },
+    {
+      "provider": {
+        "id": "zhipu",
+        "name": "智谱AI",
+        "nameEn": "Zhipu AI"
+      },
+      "plan": {
+        "id": "lite",
+        "name": "Lite"
+      },
+      "model": {
+        "id": "glm-5.3",
+        "name": "GLM-5.3"
+      },
+      "billing": {
+        "priceCny": 118,
+        "period": "month",
+        "promo": {
+          "priceCny": 94.4,
+          "type": "limited-time"
+        }
+      },
+      "metrics": {
+        "monthlyTokens": 594000000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://open.bigmodel.cn/",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "刊例价 ¥118/月；8 折后 ¥94.4。5 小时积分 2,000，GLM-5.3 倍率为 Flash 的 3 倍（官方倍率表 6.9/2.3、24/8，估算 token 表 Flash:GLM-5.3≈3:1）。"
+      },
+      "createdAt": "2026-09-20T13:11:18.204Z",
+      "updatedAt": "2026-09-25T21:15:37.872Z",
+      "activePromo": {
+        "priceCny": 94.4,
+        "type": "limited-time"
+      },
+      "monthlyYi": 5.94,
+      "unitPromo": 15.892255892255893,
+      "unitNormal": 19.865319865319865,
+      "effectiveUnit": 15.892255892255893,
+      "effectivePrice": 94.4
+    },
+    {
+      "provider": {
+        "id": "zhipu",
+        "name": "智谱AI",
+        "nameEn": "Zhipu AI"
+      },
+      "plan": {
+        "id": "pro",
+        "name": "Pro"
+      },
+      "model": {
+        "id": "glm-5.3",
+        "name": "GLM-5.3"
+      },
+      "billing": {
+        "priceCny": 538,
+        "period": "month",
+        "promo": {
+          "priceCny": 430.4,
+          "type": "limited-time"
+        }
+      },
+      "metrics": {
+        "monthlyTokens": 3564000000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://open.bigmodel.cn/",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "刊例价 ¥538/月；8 折后 ¥430.4。5 小时积分 12,000，GLM-5.3 倍率为 Flash 的 3 倍。"
+      },
+      "createdAt": "2026-09-20T13:11:18.714Z",
+      "updatedAt": "2026-09-25T21:15:38.815Z",
+      "activePromo": {
+        "priceCny": 430.4,
+        "type": "limited-time"
+      },
+      "monthlyYi": 35.64,
+      "unitPromo": 12.076318742985409,
+      "unitNormal": 15.095398428731762,
+      "effectiveUnit": 12.076318742985409,
+      "effectivePrice": 430.4
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "gpt-5.6-sol",
+        "name": "GPT 5.6 Sol"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 105492375
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:03.291Z",
+      "updatedAt": "2026-09-25T21:14:39.707Z",
+      "activePromo": null,
+      "monthlyYi": 1.05492375,
+      "unitPromo": null,
+      "unitNormal": 63.647728094092116,
+      "effectiveUnit": 63.647728094092116,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "deepseek-v4-flash-latest",
+        "name": "DeepSeek V4 Flash Latest"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 7848225000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:03.773Z",
+      "updatedAt": "2026-09-25T21:14:40.181Z",
+      "activePromo": null,
+      "monthlyYi": 78.48225,
+      "unitPromo": null,
+      "unitNormal": 0.8555246568491602,
+      "effectiveUnit": 0.8555246568491602,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "glm-5.2",
+        "name": "GLM 5.2"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 241562250
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:04.411Z",
+      "updatedAt": "2026-09-25T21:14:41.127Z",
+      "activePromo": null,
+      "monthlyYi": 2.4156225,
+      "unitPromo": null,
+      "unitNormal": 27.795526825900986,
+      "effectiveUnit": 27.795526825900986,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "gpt-5.6-luna",
+        "name": "GPT 5.6 Luna"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 754245000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:04.981Z",
+      "updatedAt": "2026-09-25T21:14:41.598Z",
+      "activePromo": null,
+      "monthlyYi": 7.54245,
+      "unitPromo": null,
+      "unitNormal": 8.902080888835856,
+      "effectiveUnit": 8.902080888835856,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "tencent-hy3",
+        "name": "Tencent Hy3"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 1804072500
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:05.633Z",
+      "updatedAt": "2026-09-25T21:14:42.069Z",
+      "activePromo": null,
+      "monthlyYi": 18.040725,
+      "unitPromo": null,
+      "unitNormal": 3.7217739309257256,
+      "effectiveUnit": 3.7217739309257256,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "qwen-3.8-27b",
+        "name": "Qwen 3.8 27B"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 1223100000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:06.060Z",
+      "updatedAt": "2026-09-25T21:14:42.541Z",
+      "activePromo": null,
+      "monthlyYi": 12.231,
+      "unitPromo": null,
+      "unitNormal": 5.489616548115444,
+      "effectiveUnit": 5.489616548115444,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "qwen-3.8-max",
+        "name": "Qwen 3.8 Max"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 66760875
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:06.578Z",
+      "updatedAt": "2026-09-25T21:14:43.012Z",
+      "activePromo": null,
+      "monthlyYi": 0.66760875,
+      "unitPromo": null,
+      "unitNormal": 100.57312759906158,
+      "effectiveUnit": 100.57312759906158,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "qwen-3.7-max",
+        "name": "Qwen 3.7 Max"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 59116500
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:06.888Z",
+      "updatedAt": "2026-09-25T21:14:43.484Z",
+      "activePromo": null,
+      "monthlyYi": 0.591165,
+      "unitPromo": null,
+      "unitNormal": 113.57827340928505,
+      "effectiveUnit": 113.57827340928505,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "qwen-3.7-plus",
+        "name": "Qwen 3.7 Plus"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 362343375
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:07.289Z",
+      "updatedAt": "2026-09-25T21:14:43.955Z",
+      "activePromo": null,
+      "monthlyYi": 3.62343375,
+      "unitPromo": null,
+      "unitNormal": 18.530351217267324,
+      "effectiveUnit": 18.530351217267324,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "qwen-3.6-plus",
+        "name": "Qwen 3.6 Plus"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 280293750
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:07.774Z",
+      "updatedAt": "2026-09-25T21:14:44.427Z",
+      "activePromo": null,
+      "monthlyYi": 2.8029375,
+      "unitPromo": null,
+      "unitNormal": 23.954690391776484,
+      "effectiveUnit": 23.954690391776484,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "minimax-m3",
+        "name": "MiniMax M3"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 708378750
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:08.212Z",
+      "updatedAt": "2026-09-25T21:14:44.900Z",
+      "activePromo": null,
+      "monthlyYi": 7.0837875,
+      "unitPromo": null,
+      "unitNormal": 9.478474615451129,
+      "effectiveUnit": 9.478474615451129,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "kimi-k2.7-code",
+        "name": "Kimi K2.7 Code"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 276216750
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:08.826Z",
+      "updatedAt": "2026-09-25T21:14:45.371Z",
+      "activePromo": null,
+      "monthlyYi": 2.7621675,
+      "unitPromo": null,
+      "unitNormal": 24.308265157706767,
+      "effectiveUnit": 24.308265157706767,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "gemini-3.8-flash",
+        "name": "Gemini 3.8 Flash"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 199773000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:09.742Z",
+      "updatedAt": "2026-09-25T21:14:46.317Z",
+      "activePromo": null,
+      "monthlyYi": 1.99773,
+      "unitPromo": null,
+      "unitNormal": 33.60989723335987,
+      "effectiveUnit": 33.60989723335987,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "longcat-2.0",
+        "name": "LongCat 2.0"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 3266696250
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:10.203Z",
+      "updatedAt": "2026-09-25T21:14:46.788Z",
+      "activePromo": null,
+      "monthlyYi": 32.6669625,
+      "unitPromo": null,
+      "unitNormal": 2.0553946514004786,
+      "effectiveUnit": 2.0553946514004786,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "mimo-v2.5",
+        "name": "MiMo V2.5"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 4963747500
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:10.971Z",
+      "updatedAt": "2026-09-25T21:14:48.205Z",
+      "activePromo": null,
+      "monthlyYi": 49.637475,
+      "unitPromo": null,
+      "unitNormal": 1.3526775888580151,
+      "effectiveUnit": 1.3526775888580151,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "deepseek-v4-pro-latest",
+        "name": "DeepSeek V4 Pro Latest"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 503509500
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:11.690Z",
+      "updatedAt": "2026-09-25T21:14:48.677Z",
+      "activePromo": null,
+      "monthlyYi": 5.035095,
+      "unitPromo": null,
+      "unitNormal": 13.33510092659622,
+      "effectiveUnit": 13.33510092659622,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "mimo-v2.5-pro",
+        "name": "MiMo V2.5 Pro"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 1452431250
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:12.304Z",
+      "updatedAt": "2026-09-25T21:14:49.149Z",
+      "activePromo": null,
+      "monthlyYi": 14.5243125,
+      "unitPromo": null,
+      "unitNormal": 4.62283498788669,
+      "effectiveUnit": 4.62283498788669,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "qwen-3.8-omni-flash",
+        "name": "Qwen 3.8 Omni Flash"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 1003961250
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:12.674Z",
+      "updatedAt": "2026-09-25T21:14:50.093Z",
+      "activePromo": null,
+      "monthlyYi": 10.0396125,
+      "unitPromo": null,
+      "unitNormal": 6.68785772359242,
+      "effectiveUnit": 6.68785772359242,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "qwen-3.8-max-0902",
+        "name": "Qwen 3.8 Max 0902"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 66760875
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:13.280Z",
+      "updatedAt": "2026-09-25T21:14:50.565Z",
+      "activePromo": null,
+      "monthlyYi": 0.66760875,
+      "unitPromo": null,
+      "unitNormal": 100.57312759906158,
+      "effectiveUnit": 100.57312759906158,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "tencent-hy4-preview",
+        "name": "Tencent Hy4 Preview"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 311890500
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:13.894Z",
+      "updatedAt": "2026-09-25T21:14:51.036Z",
+      "activePromo": null,
+      "monthlyYi": 3.118905,
+      "unitPromo": null,
+      "unitNormal": 21.527908031825273,
+      "effectiveUnit": 21.527908031825273,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "qwen-3.8-flash",
+        "name": "Qwen 3.8 Flash"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 998865000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:14.517Z",
+      "updatedAt": "2026-09-25T21:14:51.512Z",
+      "activePromo": null,
+      "monthlyYi": 9.98865,
+      "unitPromo": null,
+      "unitNormal": 6.721979446671973,
+      "effectiveUnit": 6.721979446671973,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "glm-5.3-flashx",
+        "name": "GLM 5.3 Flashx"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 240543000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:15.123Z",
+      "updatedAt": "2026-09-25T21:14:51.988Z",
+      "activePromo": null,
+      "monthlyYi": 2.40543,
+      "unitPromo": null,
+      "unitNormal": 27.91330448194294,
+      "effectiveUnit": 27.91330448194294,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "deepseek-v4-flash-vision-exp",
+        "name": "DeepSeek V4 Flash Vision Exp"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 2614376250
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:15.735Z",
+      "updatedAt": "2026-09-25T21:14:52.461Z",
+      "activePromo": null,
+      "monthlyYi": 26.1437625,
+      "unitPromo": null,
+      "unitNormal": 2.56824165993705,
+      "effectiveUnit": 2.56824165993705,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "deepseek-v4-flash-fast",
+        "name": "DeepSeek V4 Flash Fast"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 265514625
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:16.347Z",
+      "updatedAt": "2026-09-25T21:14:52.934Z",
+      "activePromo": null,
+      "monthlyYi": 2.65514625,
+      "unitPromo": null,
+      "unitNormal": 25.288060874236212,
+      "effectiveUnit": 25.288060874236212,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "glm-5.3",
+        "name": "GLM 5.3"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 68799375
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:16.809Z",
+      "updatedAt": "2026-09-25T21:14:53.406Z",
+      "activePromo": null,
+      "monthlyYi": 0.68799375,
+      "unitPromo": null,
+      "unitNormal": 97.5931830776079,
+      "effectiveUnit": 97.5931830776079,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "muse-spark-1.3",
+        "name": "Muse Spark 1.3"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 109059750
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:17.123Z",
+      "updatedAt": "2026-09-25T21:14:53.877Z",
+      "activePromo": null,
+      "monthlyYi": 1.0905975,
+      "unitPromo": null,
+      "unitNormal": 61.565793062976944,
+      "effectiveUnit": 61.565793062976944,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "muse-spark-1.3-contributor",
+        "name": "Muse Spark 1.3 Contributor"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 4632491250
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:17.582Z",
+      "updatedAt": "2026-09-25T21:14:54.349Z",
+      "activePromo": null,
+      "monthlyYi": 46.3249125,
+      "unitPromo": null,
+      "unitNormal": 1.4494037090733847,
+      "effectiveUnit": 1.4494037090733847,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "muse-spark-1.2",
+        "name": "Muse Spark 1.2"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 109059750
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:18.041Z",
+      "updatedAt": "2026-09-25T21:14:54.821Z",
+      "activePromo": null,
+      "monthlyYi": 1.0905975,
+      "unitPromo": null,
+      "unitNormal": 61.565793062976944,
+      "effectiveUnit": 61.565793062976944,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "muse-spark-1.2-contributor",
+        "name": "Muse Spark 1.2 Contributor"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 4632491250
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:18.502Z",
+      "updatedAt": "2026-09-25T21:14:55.292Z",
+      "activePromo": null,
+      "monthlyYi": 46.3249125,
+      "unitPromo": null,
+      "unitNormal": 1.4494037090733847,
+      "effectiveUnit": 1.4494037090733847,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "kimi-k3",
+        "name": "Kimi K3"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 49943250
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:19.116Z",
+      "updatedAt": "2026-09-25T21:14:55.764Z",
+      "activePromo": null,
+      "monthlyYi": 0.4994325,
+      "unitPromo": null,
+      "unitNormal": 134.43958893343947,
+      "effectiveUnit": 134.43958893343947,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "kimi-k2.7-code-highspeed",
+        "name": "Kimi K2.7 Code Highspeed"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 46070100
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:19.730Z",
+      "updatedAt": "2026-09-25T21:14:56.238Z",
+      "activePromo": null,
+      "monthlyYi": 0.460701,
+      "unitPromo": null,
+      "unitNormal": 145.7420322508525,
+      "effectiveUnit": 145.7420322508525,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "grok-4.5",
+        "name": "Grok 4.5"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 36642038
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:20.207Z",
+      "updatedAt": "2026-09-25T21:14:56.710Z",
+      "activePromo": null,
+      "monthlyYi": 0.36642038,
+      "unitPromo": null,
+      "unitNormal": 183.24171815989058,
+      "effectiveUnit": 183.24171815989058,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "grok-4.6",
+        "name": "Grok 4.6"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 36642038
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:20.654Z",
+      "updatedAt": "2026-09-25T21:14:57.181Z",
+      "activePromo": null,
+      "monthlyYi": 0.36642038,
+      "unitPromo": null,
+      "unitNormal": 183.24171815989058,
+      "effectiveUnit": 183.24171815989058,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "gemini-3.7-flash",
+        "name": "Gemini 3.7 Flash"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 199773000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:21.109Z",
+      "updatedAt": "2026-09-25T21:14:57.654Z",
+      "activePromo": null,
+      "monthlyYi": 1.99773,
+      "unitPromo": null,
+      "unitNormal": 33.60989723335987,
+      "effectiveUnit": 33.60989723335987,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "glm-5.2-fast",
+        "name": "GLM 5.2 Fast"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 35215088
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:21.880Z",
+      "updatedAt": "2026-09-25T21:14:58.125Z",
+      "activePromo": null,
+      "monthlyYi": 0.35215088,
+      "unitPromo": null,
+      "unitNormal": 190.6668527990048,
+      "effectiveUnit": 190.6668527990048,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "inkling",
+        "name": "Inkling"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 100905750
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:22.646Z",
+      "updatedAt": "2026-09-25T21:14:58.596Z",
+      "activePromo": null,
+      "monthlyYi": 1.0090575,
+      "unitPromo": null,
+      "unitNormal": 66.54080664382357,
+      "effectiveUnit": 66.54080664382357,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "inkling-small",
+        "name": "Inkling Small"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 180916875
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:23.263Z",
+      "updatedAt": "2026-09-25T21:14:59.068Z",
+      "activePromo": null,
+      "monthlyYi": 1.80916875,
+      "unitPromo": null,
+      "unitNormal": 37.112900606977654,
+      "effectiveUnit": 37.112900606977654,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "step-3.7-flash",
+        "name": "Step 3.7 Flash"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 426556125
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:23.729Z",
+      "updatedAt": "2026-09-25T21:15:00.955Z",
+      "activePromo": null,
+      "monthlyYi": 4.26556125,
+      "unitPromo": null,
+      "unitNormal": 15.74083598025934,
+      "effectiveUnit": 15.74083598025934,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "step-3.5-flash",
+        "name": "Step 3.5 Flash"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 902036250
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:24.335Z",
+      "updatedAt": "2026-09-25T21:15:01.428Z",
+      "activePromo": null,
+      "monthlyYi": 9.0203625,
+      "unitPromo": null,
+      "unitNormal": 7.443547861851451,
+      "effectiveUnit": 7.443547861851451,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "nemotron-3-ultra",
+        "name": "Nemotron 3 Ultra"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 146262375
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-20T13:18:24.949Z",
+      "updatedAt": "2026-09-25T21:15:01.902Z",
+      "activePromo": null,
+      "monthlyYi": 1.46262375,
+      "unitPromo": null,
+      "unitNormal": 45.90620109922323,
+      "effectiveUnit": 45.90620109922323,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "glm-5.3",
+        "name": "GLM 5.3"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 57078000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26"
+      },
+      "createdAt": "2026-09-20T13:23:01.092Z",
+      "updatedAt": "2026-09-25T21:12:40.709Z",
+      "activePromo": null,
+      "monthlyYi": 0.57078,
+      "unitPromo": null,
+      "unitNormal": 117.63464031675953,
+      "effectiveUnit": 117.63464031675953,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "glm-5.2",
+        "name": "GLM 5.2"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 227255000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26"
+      },
+      "createdAt": "2026-09-20T13:23:01.432Z",
+      "updatedAt": "2026-09-25T21:12:41.178Z",
+      "activePromo": null,
+      "monthlyYi": 2.27255,
+      "unitPromo": null,
+      "unitNormal": 29.54544454467449,
+      "effectiveUnit": 29.54544454467449,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "glm-5.1",
+        "name": "GLM 5.1"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 227255000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26"
+      },
+      "createdAt": "2026-09-20T13:23:01.888Z",
+      "updatedAt": "2026-09-25T21:12:41.649Z",
+      "activePromo": null,
+      "monthlyYi": 2.27255,
+      "unitPromo": null,
+      "unitNormal": 29.54544454467449,
+      "effectiveUnit": 29.54544454467449,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "kimi-k3",
+        "name": "Kimi K3"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 38146500
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26"
+      },
+      "createdAt": "2026-09-20T13:23:02.509Z",
+      "updatedAt": "2026-09-25T21:12:42.118Z",
+      "activePromo": null,
+      "monthlyYi": 0.381465,
+      "unitPromo": null,
+      "unitNormal": 176.014837534243,
+      "effectiveUnit": 176.014837534243,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "kimi-k2.7-code",
+        "name": "Kimi K2.7 Code"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 378472500
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26"
+      },
+      "createdAt": "2026-09-20T13:23:03.121Z",
+      "updatedAt": "2026-09-25T21:12:42.587Z",
+      "activePromo": null,
+      "monthlyYi": 3.784725,
+      "unitPromo": null,
+      "unitNormal": 17.740654869244135,
+      "effectiveUnit": 17.740654869244135,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "kimi-k2.6",
+        "name": "Kimi K2.6"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 322402500
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26"
+      },
+      "createdAt": "2026-09-20T13:23:03.577Z",
+      "updatedAt": "2026-09-25T21:12:43.056Z",
+      "activePromo": null,
+      "monthlyYi": 3.224025,
+      "unitPromo": null,
+      "unitNormal": 20.825986150851808,
+      "effectiveUnit": 20.825986150851808,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "longcat-2.0",
+        "name": "LongCat 2.0"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 5149144000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26"
+      },
+      "createdAt": "2026-09-20T13:23:04.043Z",
+      "updatedAt": "2026-09-25T21:12:43.526Z",
+      "activePromo": null,
+      "monthlyYi": 51.49144,
+      "unitPromo": null,
+      "unitNormal": 1.303974019759401,
+      "effectiveUnit": 1.303974019759401,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "mimo-v2.5",
+        "name": "MiMo V2.5"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 10922800000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26"
+      },
+      "createdAt": "2026-09-20T13:23:04.652Z",
+      "updatedAt": "2026-09-25T21:12:44.934Z",
+      "activePromo": null,
+      "monthlyYi": 109.228,
+      "unitPromo": null,
+      "unitNormal": 0.6147095982715055,
+      "effectiveUnit": 0.6147095982715055,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "mimo-v2.5-pro",
+        "name": "MiMo V2.5 Pro"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 1419648500
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26"
+      },
+      "createdAt": "2026-09-20T13:23:05.223Z",
+      "updatedAt": "2026-09-25T21:12:45.406Z",
+      "activePromo": null,
+      "monthlyYi": 14.196485,
+      "unitPromo": null,
+      "unitNormal": 4.729586232084914,
+      "effectiveUnit": 4.729586232084914,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "minimax-m3",
+        "name": "MiniMax M3"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 907200000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26"
+      },
+      "createdAt": "2026-09-20T13:23:05.574Z",
+      "updatedAt": "2026-09-25T21:12:45.876Z",
+      "activePromo": null,
+      "monthlyYi": 9.072,
+      "unitPromo": null,
+      "unitNormal": 7.401179453262787,
+      "effectiveUnit": 7.401179453262787,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "minimax-m2.7",
+        "name": "MiniMax M2.7"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 942225000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26"
+      },
+      "createdAt": "2026-09-20T13:23:05.936Z",
+      "updatedAt": "2026-09-25T21:12:46.345Z",
+      "activePromo": null,
+      "monthlyYi": 9.42225,
+      "unitPromo": null,
+      "unitNormal": 7.126058001008252,
+      "effectiveUnit": 7.126058001008252,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "muse-spark-1.2-contributor",
+        "name": "Muse Spark 1.2 Contributor"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 16387712000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26"
+      },
+      "createdAt": "2026-09-20T13:23:06.495Z",
+      "updatedAt": "2026-09-25T21:12:47.284Z",
+      "activePromo": null,
+      "monthlyYi": 163.87712,
+      "unitPromo": null,
+      "unitNormal": 0.4097185745026518,
+      "effectiveUnit": 0.4097185745026518,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "qwen3.8-max",
+        "name": "Qwen3.8 Max"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 53962200
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26"
+      },
+      "createdAt": "2026-09-20T13:23:07.110Z",
+      "updatedAt": "2026-09-25T21:12:47.754Z",
+      "activePromo": null,
+      "monthlyYi": 0.539622,
+      "unitPromo": null,
+      "unitNormal": 124.42691365437287,
+      "effectiveUnit": 124.42691365437287,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "qwen3.8-flash",
+        "name": "Qwen3.8 Flash"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 1587600000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26"
+      },
+      "createdAt": "2026-09-20T13:23:07.425Z",
+      "updatedAt": "2026-09-25T21:12:48.223Z",
+      "activePromo": null,
+      "monthlyYi": 15.876,
+      "unitPromo": null,
+      "unitNormal": 4.22924540186445,
+      "effectiveUnit": 4.22924540186445,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "qwen3.7-max",
+        "name": "Qwen3.7 Max"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 55960800
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26"
+      },
+      "createdAt": "2026-09-20T13:23:07.887Z",
+      "updatedAt": "2026-09-25T21:12:48.693Z",
+      "activePromo": null,
+      "monthlyYi": 0.559608,
+      "unitPromo": null,
+      "unitNormal": 119.98309530957386,
+      "effectiveUnit": 119.98309530957386,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "qwen3.7-plus",
+        "name": "Qwen3.7 Plus"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 1246104000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26"
+      },
+      "createdAt": "2026-09-20T13:23:08.343Z",
+      "updatedAt": "2026-09-25T21:12:49.166Z",
+      "activePromo": null,
+      "monthlyYi": 12.46104,
+      "unitPromo": null,
+      "unitNormal": 5.388274172942227,
+      "effectiveUnit": 5.388274172942227,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "qwen3.6-plus",
+        "name": "Qwen3.6 Plus"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 940347000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26"
+      },
+      "createdAt": "2026-09-20T13:23:08.827Z",
+      "updatedAt": "2026-09-25T21:12:49.635Z",
+      "activePromo": null,
+      "monthlyYi": 9.40347,
+      "unitPromo": null,
+      "unitNormal": 7.140289701567613,
+      "effectiveUnit": 7.140289701567613,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "deepseek-v4-pro",
+        "name": "DeepSeek V4 Pro"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 431808000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26"
+      },
+      "createdAt": "2026-09-20T13:23:09.721Z",
+      "updatedAt": "2026-09-25T21:12:50.573Z",
+      "activePromo": null,
+      "monthlyYi": 4.31808,
+      "unitPromo": null,
+      "unitNormal": 15.549387690825553,
+      "effectiveUnit": 15.549387690825553,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 4681300000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26"
+      },
+      "createdAt": "2026-09-20T13:23:10.335Z",
+      "updatedAt": "2026-09-25T21:12:51.042Z",
+      "activePromo": null,
+      "monthlyYi": 46.813,
+      "unitPromo": null,
+      "unitNormal": 1.4342917565633477,
+      "effectiveUnit": 1.4342917565633477,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "deepseek-v4-flash-vision-exp",
+        "name": "DeepSeek V4 Flash Vision Exp"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 2340650000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26"
+      },
+      "createdAt": "2026-09-20T13:23:10.950Z",
+      "updatedAt": "2026-09-25T21:12:51.522Z",
+      "activePromo": null,
+      "monthlyYi": 23.4065,
+      "unitPromo": null,
+      "unitNormal": 2.8685835131266955,
+      "effectiveUnit": 2.8685835131266955,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "hy4-preview",
+        "name": "Hy4 Preview"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 491671250
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26"
+      },
+      "createdAt": "2026-09-20T13:23:11.261Z",
+      "updatedAt": "2026-09-25T21:12:51.991Z",
+      "activePromo": null,
+      "monthlyYi": 4.9167125,
+      "unitPromo": null,
+      "unitNormal": 13.656177781393565,
+      "effectiveUnit": 13.656177781393565,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "hy3",
+        "name": "Hy3"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 1561437500
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26"
+      },
+      "createdAt": "2026-09-20T13:23:11.573Z",
+      "updatedAt": "2026-09-25T21:12:52.463Z",
+      "activePromo": null,
+      "monthlyYi": 15.614375,
+      "unitPromo": null,
+      "unitNormal": 4.300108073489973,
+      "effectiveUnit": 4.300108073489973,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "grok-4.6",
+        "name": "Grok 4.6"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 27893450
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26"
+      },
+      "createdAt": "2026-09-20T13:23:12.172Z",
+      "updatedAt": "2026-09-25T21:12:53.410Z",
+      "activePromo": null,
+      "monthlyYi": 0.2789345,
+      "unitPromo": null,
+      "unitNormal": 240.71421785401236,
+      "effectiveUnit": 240.71421785401236,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "gpt-5.6-luna",
+        "name": "GPT 5.6 Luna"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 525005000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26"
+      },
+      "createdAt": "2026-09-20T13:23:12.657Z",
+      "updatedAt": "2026-09-25T21:12:54.350Z",
+      "activePromo": null,
+      "monthlyYi": 5.25005,
+      "unitPromo": null,
+      "unitNormal": 12.789116294130533,
+      "effectiveUnit": 12.789116294130533,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "minimax",
+        "name": "MiniMax"
+      },
+      "plan": {
+        "id": "plus",
+        "name": "Plus"
+      },
+      "model": {
+        "id": "minimax-m3",
+        "name": "MiniMax-M3"
+      },
+      "billing": {
+        "priceCny": 49,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 600000000
+      },
+      "estimate": {
+        "monthlyTokens": false
+      },
+      "displayNote": "月额度 6 亿 token（官方约值），额度窗口为 5 小时固定窗口和周窗口；文本、图像、语音共享同一额度池。",
+      "subscribeUrl": "https://platform.minimaxi.com/subscribe/token-plan",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "价格来自 token-plan 文档「按月订阅」表；月额度来自首页博文《MiniMax Token Plan 三档校准》官方绝对值。"
+      },
+      "createdAt": "2026-09-20T15:23:25.343Z",
+      "updatedAt": "2026-09-25T21:16:46.875Z",
+      "activePromo": null,
+      "monthlyYi": 6,
+      "unitPromo": null,
+      "unitNormal": 8.166666666666666,
+      "effectiveUnit": 8.166666666666666,
+      "effectivePrice": 49
+    },
+    {
+      "provider": {
+        "id": "minimax",
+        "name": "MiniMax"
+      },
+      "plan": {
+        "id": "max",
+        "name": "Max"
+      },
+      "model": {
+        "id": "minimax-m3",
+        "name": "MiniMax-M3"
+      },
+      "billing": {
+        "priceCny": 119,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 1800000000
+      },
+      "estimate": {
+        "monthlyTokens": false
+      },
+      "displayNote": "月额度 18 亿 token（官方约值），额度窗口为 5 小时固定窗口和周窗口；文本、图像、语音共享同一额度池。",
+      "subscribeUrl": "https://platform.minimaxi.com/subscribe/token-plan",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "价格来自 token-plan 文档「按月订阅」表；月额度来自首页博文《MiniMax Token Plan 三档校准》官方绝对值。"
+      },
+      "createdAt": "2026-09-20T15:23:25.805Z",
+      "updatedAt": "2026-09-25T21:16:47.362Z",
+      "activePromo": null,
+      "monthlyYi": 18,
+      "unitPromo": null,
+      "unitNormal": 6.611111111111111,
+      "effectiveUnit": 6.611111111111111,
+      "effectivePrice": 119
+    },
+    {
+      "provider": {
+        "id": "minimax",
+        "name": "MiniMax"
+      },
+      "plan": {
+        "id": "ultra",
+        "name": "Ultra"
+      },
+      "model": {
+        "id": "minimax-m3",
+        "name": "MiniMax-M3"
+      },
+      "billing": {
+        "priceCny": 469,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 5500000000
+      },
+      "estimate": {
+        "monthlyTokens": false
+      },
+      "displayNote": "月额度 55 亿 token（官方约值），额度窗口为 5 小时固定窗口和周窗口；文本、图像、语音共享同一额度池。",
+      "subscribeUrl": "https://platform.minimaxi.com/subscribe/token-plan",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "价格来自 token-plan 文档「按月订阅」表；月额度来自首页博文《MiniMax Token Plan 三档校准》官方绝对值。"
+      },
+      "createdAt": "2026-09-20T15:23:26.263Z",
+      "updatedAt": "2026-09-25T21:16:47.837Z",
+      "activePromo": null,
+      "monthlyYi": 55,
+      "unitPromo": null,
+      "unitNormal": 8.527272727272727,
+      "effectiveUnit": 8.527272727272727,
+      "effectivePrice": 469
+    },
+    {
+      "provider": {
+        "id": "openai",
+        "name": "OpenAI"
+      },
+      "plan": {
+        "id": "plus",
+        "name": "ChatGPT Plus"
+      },
+      "model": {
+        "id": "gpt-5.6-sol",
+        "name": "GPT-5.6 Sol"
+      },
+      "billing": {
+        "priceCny": 134.2869,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 73728000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "displayNoteEn": "Estimate: lower bound of the official Plus allowance of 10-100 local messages per 5-hour window for GPT-5.6 Sol (OpenAI: \"These estimates are not fixed message limits\").",
+      "subscribeUrl": "https://chatgpt.com/pricing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "每次请求 token 画像为假设值 1k 输入 / 50k 缓存读 / 200 输出（官方未公布，见 methodology/assumed-profile.md）；额度口径为 ChatGPT/Codex 官方文档公布的每 5 小时本地消息数区间（取下界）；OpenAI 不公布月 token 额度"
+      },
+      "createdAt": "2026-09-20T15:36:56.824Z",
+      "updatedAt": "2026-09-25T21:18:41.932Z",
+      "activePromo": null,
+      "monthlyYi": 0.73728,
+      "unitPromo": null,
+      "unitNormal": 182.13826497395831,
+      "effectiveUnit": 182.13826497395831,
+      "effectivePrice": 134.2869
+    },
+    {
+      "provider": {
+        "id": "openai",
+        "name": "OpenAI"
+      },
+      "plan": {
+        "id": "plus",
+        "name": "ChatGPT Plus"
+      },
+      "model": {
+        "id": "gpt-5.6-terra",
+        "name": "GPT-5.6 Terra"
+      },
+      "billing": {
+        "priceCny": 134.2869,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 184320000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "displayNoteEn": "Estimate: lower bound of the official Plus allowance of 25-200 local messages per 5-hour window for GPT-5.6 Terra (OpenAI: \"These estimates are not fixed message limits\").",
+      "subscribeUrl": "https://chatgpt.com/pricing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "每次请求 token 画像为假设值 1k 输入 / 50k 缓存读 / 200 输出（官方未公布，见 methodology/assumed-profile.md）；额度口径为 ChatGPT/Codex 官方文档公布的每 5 小时本地消息数区间（取下界）；OpenAI 不公布月 token 额度"
+      },
+      "createdAt": "2026-09-20T15:36:57.290Z",
+      "updatedAt": "2026-09-25T21:18:42.404Z",
+      "activePromo": null,
+      "monthlyYi": 1.8432,
+      "unitPromo": null,
+      "unitNormal": 72.85530598958334,
+      "effectiveUnit": 72.85530598958334,
+      "effectivePrice": 134.2869
+    },
+    {
+      "provider": {
+        "id": "openai",
+        "name": "OpenAI"
+      },
+      "plan": {
+        "id": "plus",
+        "name": "ChatGPT Plus"
+      },
+      "model": {
+        "id": "gpt-5.6-luna",
+        "name": "GPT-5.6 Luna"
+      },
+      "billing": {
+        "priceCny": 134.2869,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 1843200000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "displayNoteEn": "Estimate: lower bound of the official Plus allowance of 250-2,000 local messages per 5-hour window for GPT-5.6 Luna (OpenAI: \"These estimates are not fixed message limits\").",
+      "subscribeUrl": "https://chatgpt.com/pricing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "每次请求 token 画像为假设值 1k 输入 / 50k 缓存读 / 200 输出（官方未公布，见 methodology/assumed-profile.md）；额度口径为 ChatGPT/Codex 官方文档公布的每 5 小时本地消息数区间（取下界）；OpenAI 不公布月 token 额度"
+      },
+      "createdAt": "2026-09-20T15:36:57.755Z",
+      "updatedAt": "2026-09-25T21:18:42.870Z",
+      "activePromo": null,
+      "monthlyYi": 18.432,
+      "unitPromo": null,
+      "unitNormal": 7.285530598958334,
+      "effectiveUnit": 7.285530598958334,
+      "effectivePrice": 134.2869
+    },
+    {
+      "provider": {
+        "id": "openai",
+        "name": "OpenAI"
+      },
+      "plan": {
+        "id": "pro-5x",
+        "name": "ChatGPT Pro 5×"
+      },
+      "model": {
+        "id": "gpt-5.6-sol",
+        "name": "GPT-5.6 Sol"
+      },
+      "billing": {
+        "priceCny": 671.4347,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 368640000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "displayNoteEn": "Estimate: lower bound of the official Pro 5x allowance of 50-500 local messages per 5-hour window for GPT-5.6 Sol (OpenAI: \"These estimates are not fixed message limits\").",
+      "subscribeUrl": "https://chatgpt.com/pricing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "每次请求 token 画像为假设值 1k 输入 / 50k 缓存读 / 200 输出（官方未公布，见 methodology/assumed-profile.md）；额度口径为 ChatGPT/Codex 官方文档公布的每 5 小时本地消息数区间（取下界）；OpenAI 不公布月 token 额度"
+      },
+      "createdAt": "2026-09-20T15:36:58.221Z",
+      "updatedAt": "2026-09-25T21:18:43.336Z",
+      "activePromo": null,
+      "monthlyYi": 3.6864,
+      "unitPromo": null,
+      "unitNormal": 182.13831922743057,
+      "effectiveUnit": 182.13831922743057,
+      "effectivePrice": 671.4347
+    },
+    {
+      "provider": {
+        "id": "openai",
+        "name": "OpenAI"
+      },
+      "plan": {
+        "id": "pro-5x",
+        "name": "ChatGPT Pro 5×"
+      },
+      "model": {
+        "id": "gpt-5.6-terra",
+        "name": "GPT-5.6 Terra"
+      },
+      "billing": {
+        "priceCny": 671.4347,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 921600000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "displayNoteEn": "Estimate: lower bound of the official Pro 5x allowance of 125-1,000 local messages per 5-hour window for GPT-5.6 Terra (OpenAI: \"These estimates are not fixed message limits\").",
+      "subscribeUrl": "https://chatgpt.com/pricing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "每次请求 token 画像为假设值 1k 输入 / 50k 缓存读 / 200 输出（官方未公布，见 methodology/assumed-profile.md）；额度口径为 ChatGPT/Codex 官方文档公布的每 5 小时本地消息数区间（取下界）；OpenAI 不公布月 token 额度"
+      },
+      "createdAt": "2026-09-20T15:36:58.687Z",
+      "updatedAt": "2026-09-25T21:18:43.802Z",
+      "activePromo": null,
+      "monthlyYi": 9.216,
+      "unitPromo": null,
+      "unitNormal": 72.85532769097223,
+      "effectiveUnit": 72.85532769097223,
+      "effectivePrice": 671.4347
+    },
+    {
+      "provider": {
+        "id": "openai",
+        "name": "OpenAI"
+      },
+      "plan": {
+        "id": "pro-5x",
+        "name": "ChatGPT Pro 5×"
+      },
+      "model": {
+        "id": "gpt-5.6-luna",
+        "name": "GPT-5.6 Luna"
+      },
+      "billing": {
+        "priceCny": 671.4347,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 9216000000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "displayNoteEn": "Estimate: lower bound of the official Pro 5x allowance of 1,250-10,000 local messages per 5-hour window for GPT-5.6 Luna (OpenAI: \"These estimates are not fixed message limits\").",
+      "subscribeUrl": "https://chatgpt.com/pricing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "每次请求 token 画像为假设值 1k 输入 / 50k 缓存读 / 200 输出（官方未公布，见 methodology/assumed-profile.md）；额度口径为 ChatGPT/Codex 官方文档公布的每 5 小时本地消息数区间（取下界）；OpenAI 不公布月 token 额度"
+      },
+      "createdAt": "2026-09-20T15:36:59.154Z",
+      "updatedAt": "2026-09-25T21:18:44.269Z",
+      "activePromo": null,
+      "monthlyYi": 92.16,
+      "unitPromo": null,
+      "unitNormal": 7.285532769097223,
+      "effectiveUnit": 7.285532769097223,
+      "effectivePrice": 671.4347
+    },
+    {
+      "provider": {
+        "id": "qwen",
+        "name": "通义 Qwen Code",
+        "nameEn": "Qwen Code"
+      },
+      "plan": {
+        "id": "coding-plan",
+        "name": "Coding Plan"
+      },
+      "model": {
+        "id": "included-models",
+        "name": "套餐内模型（综合）",
+        "nameEn": "Included models (aggregate)"
+      },
+      "billing": {
+        "priceCny": 200,
+        "period": "month",
+        "promo": {
+          "priceCny": 39.9,
+          "type": "first-month"
+        }
+      },
+      "metrics": {
+        "monthlyTokens": 4608000000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "displayNote": "官方价 ¥200/月；每 5 小时 6,000 次、每周 45,000 次、每月 90,000 次请求。新客首月特惠 ¥39.90（促销，不计入基线）；官方未公布每次请求 token 画像，月 token 为按统一假设画像的估算值。Lite 档已停止新购/续费。",
+      "subscribeUrl": "https://help.aliyun.com/zh/model-studio/coding-plan",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "价格与用量限制出自官方帮助中心 Coding Plan 页面：价格「¥ 200/月」；用量限制「每 5 小时6,000 次请求 每周45,000 次请求 每月90,000 次请求」。促销原文：「新客首月特惠：首次订阅 Pro 套餐可享首月 ¥39.90（官网目录价 ¥200/月），后续按 ¥200/月 续费，具体以下单页为准。」页面未给出该促销到期日。套餐覆盖千问/GLM/Kimi/MiniMax 等模型，额度按套餐整体计，故只建 included-models 一行。"
+      },
+      "createdAt": "2026-09-20T15:37:22.690Z",
+      "updatedAt": "2026-09-25T21:18:51.868Z",
+      "activePromo": {
+        "priceCny": 39.9,
+        "type": "first-month"
+      },
+      "monthlyYi": 46.08,
+      "unitPromo": 0.8658854166666666,
+      "unitNormal": 4.340277777777778,
+      "effectiveUnit": 0.8658854166666666,
+      "effectivePrice": 39.9
+    },
+    {
+      "provider": {
+        "id": "gemini",
+        "name": "Gemini Code Assist"
+      },
+      "plan": {
+        "id": "standard",
+        "name": "Standard"
+      },
+      "model": {
+        "id": "included-models",
+        "name": "套餐内模型（综合）",
+        "nameEn": "Included models (aggregate)"
+      },
+      "billing": {
+        "priceCny": 153.0871,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 2304000000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "displayNoteEn": "Gemini Code Assist is licensed per user/seat; the monthly-commitment hourly rate is converted to a monthly price by the engine, so it is not directly comparable to individual consumer subscriptions.",
+      "subscribeUrl": "https://cloud.google.com/products/gemini/pricing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方按用户/席位计价（$0.031232877 / 1 hour，monthly commitment），本行为套餐内模型综合口径，不含任何促销。月 token 为统一假设画像下的估算值。"
+      },
+      "createdAt": "2026-09-20T15:39:34.716Z",
+      "updatedAt": "2026-09-25T21:19:07.725Z",
+      "activePromo": null,
+      "monthlyYi": 23.04,
+      "unitPromo": null,
+      "unitNormal": 6.644405381944444,
+      "effectiveUnit": 6.644405381944444,
+      "effectivePrice": 153.0871
+    },
+    {
+      "provider": {
+        "id": "gemini",
+        "name": "Gemini Code Assist"
+      },
+      "plan": {
+        "id": "enterprise",
+        "name": "Enterprise"
+      },
+      "model": {
+        "id": "included-models",
+        "name": "套餐内模型（综合）",
+        "nameEn": "Included models (aggregate)"
+      },
+      "billing": {
+        "priceCny": 362.5747,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 3072000000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "displayNoteEn": "Gemini Code Assist is licensed per user/seat; the monthly-commitment hourly rate is converted to a monthly price by the engine, so it is not directly comparable to individual consumer subscriptions.",
+      "subscribeUrl": "https://cloud.google.com/products/gemini/pricing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方按用户/席位计价（$0.073972603 / 1 hour，monthly commitment），本行为套餐内模型综合口径，不含任何促销。月 token 为统一假设画像下的估算值。"
+      },
+      "createdAt": "2026-09-20T15:39:35.622Z",
+      "updatedAt": "2026-09-25T21:19:08.191Z",
+      "activePromo": null,
+      "monthlyYi": 30.72,
+      "unitPromo": null,
+      "unitNormal": 11.802561848958334,
+      "effectiveUnit": 11.802561848958334,
+      "effectivePrice": 362.5747
+    },
+    {
+      "provider": {
+        "id": "devin",
+        "name": "Devin（原 Windsurf）",
+        "nameEn": "Devin"
+      },
+      "plan": {
+        "id": "pro",
+        "name": "Pro"
+      },
+      "model": {
+        "id": "premium-plus",
+        "name": "Premium Plus 档（Opus/GPT-5.x）"
+      },
+      "billing": {
+        "priceCny": 134.2869,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 10752000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "displayNote": "官方每日消息数估算下界 7 条/天 × 30 天 × 统一假设画像 51,200 tokens（1k 输入 + 50k 缓存 + 200 输出），估算值。",
+      "displayNoteEn": "Official estimate lower bound: 7 messages/day × 30 days × assumed profile 51,200 tokens (1k input + 50k cached + 200 output). Estimated.",
+      "subscribeUrl": "https://devin.ai/pricing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "每次请求 token 画像为假设值 1k 输入 / 50k 缓存读 / 200 输出（官方未公布，见 methodology/assumed-profile.md）；额度口径为 Cognition 官方公布的消息数/天（Premium Plus 7-27、Premium 8-101、Lightweight 47-190，Max 档另有更高区间）；官方另注明「另有一层周限额」，Pro 有日额度、Max 无日上限"
+      },
+      "createdAt": "2026-09-20T15:57:31.603Z",
+      "updatedAt": "2026-09-25T21:19:44.136Z",
+      "activePromo": null,
+      "monthlyYi": 0.10752,
+      "unitPromo": null,
+      "unitNormal": 1248.9481026785713,
+      "effectiveUnit": 1248.9481026785713,
+      "effectivePrice": 134.2869
+    },
+    {
+      "provider": {
+        "id": "devin",
+        "name": "Devin（原 Windsurf）",
+        "nameEn": "Devin"
+      },
+      "plan": {
+        "id": "pro",
+        "name": "Pro"
+      },
+      "model": {
+        "id": "premium",
+        "name": "Premium 档（Sonnet/GPT-5.2/Gemini Pro）"
+      },
+      "billing": {
+        "priceCny": 134.2869,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 12288000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "displayNote": "官方每日消息数估算下界 8 条/天 × 30 天 × 统一假设画像 51,200 tokens，估算值。",
+      "displayNoteEn": "Official estimate lower bound: 8 messages/day × 30 days × assumed profile 51,200 tokens. Estimated.",
+      "subscribeUrl": "https://devin.ai/pricing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "每次请求 token 画像为假设值 1k 输入 / 50k 缓存读 / 200 输出（官方未公布，见 methodology/assumed-profile.md）；额度口径为 Cognition 官方公布的消息数/天（Premium Plus 7-27、Premium 8-101、Lightweight 47-190，Max 档另有更高区间）；官方另注明「另有一层周限额」，Pro 有日额度、Max 无日上限"
+      },
+      "createdAt": "2026-09-20T15:57:32.088Z",
+      "updatedAt": "2026-09-25T21:19:44.603Z",
+      "activePromo": null,
+      "monthlyYi": 0.12288,
+      "unitPromo": null,
+      "unitNormal": 1092.82958984375,
+      "effectiveUnit": 1092.82958984375,
+      "effectivePrice": 134.2869
+    },
+    {
+      "provider": {
+        "id": "devin",
+        "name": "Devin（原 Windsurf）",
+        "nameEn": "Devin"
+      },
+      "plan": {
+        "id": "pro",
+        "name": "Pro"
+      },
+      "model": {
+        "id": "lightweight",
+        "name": "Lightweight 档（Haiku/Flash）"
+      },
+      "billing": {
+        "priceCny": 134.2869,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 72192000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "displayNote": "官方每日消息数估算下界 47 条/天 × 30 天 × 统一假设画像 51,200 tokens，估算值。",
+      "displayNoteEn": "Official estimate lower bound: 47 messages/day × 30 days × assumed profile 51,200 tokens. Estimated.",
+      "subscribeUrl": "https://devin.ai/pricing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "每次请求 token 画像为假设值 1k 输入 / 50k 缓存读 / 200 输出（官方未公布，见 methodology/assumed-profile.md）；额度口径为 Cognition 官方公布的消息数/天（Premium Plus 7-27、Premium 8-101、Lightweight 47-190，Max 档另有更高区间）；官方另注明「另有一层周限额」，Pro 有日额度、Max 无日上限"
+      },
+      "createdAt": "2026-09-20T15:57:32.566Z",
+      "updatedAt": "2026-09-25T21:19:45.069Z",
+      "activePromo": null,
+      "monthlyYi": 0.72192,
+      "unitPromo": null,
+      "unitNormal": 186.0135472074468,
+      "effectiveUnit": 186.0135472074468,
+      "effectivePrice": 134.2869
+    },
+    {
+      "provider": {
+        "id": "devin",
+        "name": "Devin（原 Windsurf）",
+        "nameEn": "Devin"
+      },
+      "plan": {
+        "id": "max",
+        "name": "Max"
+      },
+      "model": {
+        "id": "premium-plus",
+        "name": "Premium Plus 档（Opus/GPT-5.x）"
+      },
+      "billing": {
+        "priceCny": 1342.8693,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 64512000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "displayNote": "官方每日消息数估算下界 42 条/天 × 30 天 × 统一假设画像 51,200 tokens，估算值；Max 官方仅设周额度、无日上限，取日表下界为保守口径。",
+      "displayNoteEn": "Official estimate lower bound: 42 messages/day × 30 days × assumed profile 51,200 tokens. Estimated; Max has a weekly-only allowance and this uses the daily-table lower bound as a conservative basis.",
+      "subscribeUrl": "https://devin.ai/pricing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "每次请求 token 画像为假设值 1k 输入 / 50k 缓存读 / 200 输出（官方未公布，见 methodology/assumed-profile.md）；额度口径为 Cognition 官方公布的消息数/天（Premium Plus 7-27、Premium 8-101、Lightweight 47-190，Max 档另有更高区间）；官方另注明「另有一层周限额」，Pro 有日额度、Max 无日上限"
+      },
+      "createdAt": "2026-09-20T15:57:33.044Z",
+      "updatedAt": "2026-09-25T21:19:45.537Z",
+      "activePromo": null,
+      "monthlyYi": 0.64512,
+      "unitPromo": null,
+      "unitNormal": 2081.580636160714,
+      "effectiveUnit": 2081.580636160714,
+      "effectivePrice": 1342.8693
+    },
+    {
+      "provider": {
+        "id": "devin",
+        "name": "Devin（原 Windsurf）",
+        "nameEn": "Devin"
+      },
+      "plan": {
+        "id": "max",
+        "name": "Max"
+      },
+      "model": {
+        "id": "premium",
+        "name": "Premium 档（Sonnet/GPT-5.2/Gemini Pro）"
+      },
+      "billing": {
+        "priceCny": 1342.8693,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 72192000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "displayNote": "官方每日消息数估算下界 47 条/天 × 30 天 × 统一假设画像 51,200 tokens，估算值；Max 官方仅设周额度、无日上限，取日表下界为保守口径。",
+      "displayNoteEn": "Official estimate lower bound: 47 messages/day × 30 days × assumed profile 51,200 tokens. Estimated; Max has a weekly-only allowance and this uses the daily-table lower bound as a conservative basis.",
+      "subscribeUrl": "https://devin.ai/pricing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "每次请求 token 画像为假设值 1k 输入 / 50k 缓存读 / 200 输出（官方未公布，见 methodology/assumed-profile.md）；额度口径为 Cognition 官方公布的消息数/天（Premium Plus 7-27、Premium 8-101、Lightweight 47-190，Max 档另有更高区间）；官方另注明「另有一层周限额」，Pro 有日额度、Max 无日上限"
+      },
+      "createdAt": "2026-09-20T15:57:33.525Z",
+      "updatedAt": "2026-09-25T21:19:46.003Z",
+      "activePromo": null,
+      "monthlyYi": 0.72192,
+      "unitPromo": null,
+      "unitNormal": 1860.135887632979,
+      "effectiveUnit": 1860.135887632979,
+      "effectivePrice": 1342.8693
+    },
+    {
+      "provider": {
+        "id": "devin",
+        "name": "Devin（原 Windsurf）",
+        "nameEn": "Devin"
+      },
+      "plan": {
+        "id": "max",
+        "name": "Max"
+      },
+      "model": {
+        "id": "lightweight",
+        "name": "Lightweight 档（Haiku/Flash）"
+      },
+      "billing": {
+        "priceCny": 1342.8693,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 446976000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "displayNote": "官方每日消息数估算下界 291 条/天 × 30 天 × 统一假设画像 51,200 tokens，估算值；Max 官方仅设周额度、无日上限，取日表下界为保守口径。",
+      "displayNoteEn": "Official estimate lower bound: 291 messages/day × 30 days × assumed profile 51,200 tokens. Estimated; Max has a weekly-only allowance and this uses the daily-table lower bound as a conservative basis.",
+      "subscribeUrl": "https://devin.ai/pricing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "每次请求 token 画像为假设值 1k 输入 / 50k 缓存读 / 200 输出（官方未公布，见 methodology/assumed-profile.md）；额度口径为 Cognition 官方公布的消息数/天（Premium Plus 7-27、Premium 8-101、Lightweight 47-190，Max 档另有更高区间）；官方另注明「另有一层周限额」，Pro 有日额度、Max 无日上限"
+      },
+      "createdAt": "2026-09-20T15:57:34.002Z",
+      "updatedAt": "2026-09-25T21:19:46.471Z",
+      "activePromo": null,
+      "monthlyYi": 4.46976,
+      "unitPromo": null,
+      "unitNormal": 300.434318621134,
+      "effectiveUnit": 300.434318621134,
+      "effectivePrice": 1342.8693
+    },
+    {
+      "provider": {
+        "id": "claude",
+        "name": "Claude"
+      },
+      "plan": {
+        "id": "max-5x",
+        "name": "Max 5×"
+      },
+      "model": {
+        "id": "included-models",
+        "name": "套餐内模型（综合）",
+        "nameEn": "Included models (aggregate)"
+      },
+      "billing": {
+        "priceCny": 671.4347,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 11560000000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "displayNote": "官方写「From $100」，此处按起价 $100/月读；Max 20× 为更高档，页面未标价。Max 仅月付。额度官方仅给相对倍数，token 额度由引擎按社区估计填充。",
+      "displayNoteEn": "Official page writes \"From $100\"; recorded as the starting price $100/month. Max is billed monthly only. Usage is only given as relative multiples; token quota comes from community estimates via the engine.",
+      "subscribeUrl": "https://claude.com/pricing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "价格原文：\"Max For people who work with Claude all day From $100 Per month\"；FAQ 亦载 \"Both options are billed monthly.\""
+      },
+      "createdAt": "2026-09-20T16:01:26.958Z",
+      "updatedAt": "2026-09-25T21:20:22.205Z",
+      "activePromo": null,
+      "monthlyYi": 115.6,
+      "unitPromo": null,
+      "unitNormal": 5.808258650519032,
+      "effectiveUnit": 5.808258650519032,
+      "effectivePrice": 671.4347
+    },
+    {
+      "provider": {
+        "id": "claude",
+        "name": "Claude"
+      },
+      "plan": {
+        "id": "pro",
+        "name": "Pro"
+      },
+      "model": {
+        "id": "included-models",
+        "name": "套餐内模型（综合）",
+        "nameEn": "Included models (aggregate)"
+      },
+      "billing": {
+        "priceCny": 134.2869,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 1390000000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "displayNote": "官方月付价 $20；年付折合 $17/月（$200 一次性预付），不采用。官方不公布绝对额度，token 额度由社区估计口径填库。",
+      "displayNoteEn": "Official monthly price $20; annual billing works out to $17/month ($200 up front), not used. Anthropic publishes no absolute allowance; token figures come from community estimates.",
+      "subscribeUrl": "https://claude.com/pricing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方价格卡：月付 $20；年付折算 $17/月（$200 billed up front），按口径不采用年付价。仅读价格，额度由社区估计数据集填入。"
+      },
+      "createdAt": "2026-09-20T16:03:56.535Z",
+      "updatedAt": "2026-09-25T21:20:21.732Z",
+      "activePromo": null,
+      "monthlyYi": 13.9,
+      "unitPromo": null,
+      "unitNormal": 9.660928057553956,
+      "effectiveUnit": 9.660928057553956,
+      "effectivePrice": 134.2869
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "mimo-v2.6-flash",
+        "name": "MiMo V2.6 Flash"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 10922800000
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26"
+      },
+      "createdAt": "2026-09-21T21:48:33.163Z",
+      "updatedAt": "2026-09-25T21:12:43.995Z",
+      "activePromo": null,
+      "monthlyYi": 109.228,
+      "unitPromo": null,
+      "unitNormal": 0.6147095982715055,
+      "effectiveUnit": 0.6147095982715055,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "mimo-v2.6-pro",
+        "name": "MiMo V2.6 Pro"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 1419648500
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26"
+      },
+      "createdAt": "2026-09-21T21:48:33.564Z",
+      "updatedAt": "2026-09-25T21:12:44.465Z",
+      "activePromo": null,
+      "monthlyYi": 14.196485,
+      "unitPromo": null,
+      "unitNormal": 4.729586232084914,
+      "effectiveUnit": 4.729586232084914,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "grok-4.7",
+        "name": "Grok 4.7"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 27893450
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26"
+      },
+      "createdAt": "2026-09-21T21:48:40.758Z",
+      "updatedAt": "2026-09-25T21:12:52.933Z",
+      "activePromo": null,
+      "monthlyYi": 0.2789345,
+      "unitPromo": null,
+      "unitNormal": 240.71421785401236,
+      "effectiveUnit": 240.71421785401236,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "grok-4.7",
+        "name": "Grok 4.7"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 64212750
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-21T21:50:23.996Z",
+      "updatedAt": "2026-09-25T21:14:47.260Z",
+      "activePromo": null,
+      "monthlyYi": 0.6421275,
+      "unitPromo": null,
+      "unitNormal": 104.56412472600847,
+      "effectiveUnit": 104.56412472600847,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "step-5-preview",
+        "name": "Step 5 Preview"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 265514625
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-21T21:50:24.397Z",
+      "updatedAt": "2026-09-25T21:15:00.484Z",
+      "activePromo": null,
+      "monthlyYi": 2.65514625,
+      "unitPromo": null,
+      "unitNormal": 25.288060874236212,
+      "effectiveUnit": 25.288060874236212,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "mimo-v2.6-flash",
+        "name": "MiMo V2.6 Flash"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 3307466250
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "新模型自动入库。官方 Monthly credits 标 $30（促销 $67 through Sep 24th，不入基线）；月请求 218,000。"
+      },
+      "createdAt": "2026-09-22T21:01:42.717Z",
+      "updatedAt": "2026-09-25T21:14:47.734Z",
+      "activePromo": null,
+      "monthlyYi": 33.0746625,
+      "unitPromo": null,
+      "unitNormal": 2.0300585077776683,
+      "effectiveUnit": 2.0300585077776683,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "mimo-v2.6-pro",
+        "name": "MiMo V2.6 Pro"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 1452431250
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "新模型自动入库。官方 Monthly credits $20（新模型 2×）；月请求 28,500。"
+      },
+      "createdAt": "2026-09-22T21:01:43.173Z",
+      "updatedAt": "2026-09-25T21:14:59.540Z",
+      "activePromo": null,
+      "monthlyYi": 14.5243125,
+      "unitPromo": null,
+      "unitNormal": 4.62283498788669,
+      "effectiveUnit": 4.62283498788669,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "mimo-v2.6-pro-ultraspeed",
+        "name": "MiMo V2.6 Pro Ultraspeed"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 72366750
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "新模型自动入库。官方 Monthly credits $10（小米按 MiMo V2.6 Pro 十倍计费）；月请求 1,420。"
+      },
+      "createdAt": "2026-09-22T21:01:43.629Z",
+      "updatedAt": "2026-09-25T21:15:00.012Z",
+      "activePromo": null,
+      "monthlyYi": 0.7236675,
+      "unitPromo": null,
+      "unitNormal": 92.78225151744414,
+      "effectiveUnit": 92.78225151744414,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "opencode",
+        "name": "OpenCode"
+      },
+      "plan": {
+        "id": "go",
+        "name": "OpenCode Go"
+      },
+      "model": {
+        "id": "gpt-6-luna",
+        "name": "GPT 6 Luna"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 1082278600
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://opencode.ai/auth",
+      "source": {
+        "lastVerifiedAt": "2026-09-26"
+      },
+      "createdAt": "2026-09-23T21:11:48.331Z",
+      "updatedAt": "2026-09-25T21:12:53.882Z",
+      "activePromo": null,
+      "monthlyYi": 10.822786,
+      "unitPromo": null,
+      "unitNormal": 6.203901657114906,
+      "effectiveUnit": 6.203901657114906,
+      "effectivePrice": 67.1435
+    },
+    {
+      "provider": {
+        "id": "commandcode",
+        "name": "CommandCode"
+      },
+      "plan": {
+        "id": "goat",
+        "name": "CommandCode GOAT"
+      },
+      "model": {
+        "id": "gpt-6-luna",
+        "name": "GPT 6 Luna"
+      },
+      "billing": {
+        "priceCny": 67.1435,
+        "period": "month"
+      },
+      "metrics": {
+        "monthlyTokens": 1544163750
+      },
+      "estimate": {
+        "monthlyTokens": true
+      },
+      "subscribeUrl": "https://commandcode.ai/billing",
+      "source": {
+        "lastVerifiedAt": "2026-09-26",
+        "note": "官方口径：典型 agent 请求约 800 输入 + 50,000 缓存读 + 125–200 输出 token"
+      },
+      "createdAt": "2026-09-23T21:13:20.388Z",
+      "updatedAt": "2026-09-25T21:14:49.621Z",
+      "activePromo": null,
+      "monthlyYi": 15.4416375,
+      "unitPromo": null,
+      "unitNormal": 4.348211127220154,
+      "effectiveUnit": 4.348211127220154,
+      "effectivePrice": 67.1435
+    }
+  ]
+}
